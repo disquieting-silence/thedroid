@@ -1,0 +1,9 @@
+/out
+*.iws
+ant.properties
+/bin
+build.xml
+/gen
+local.properties
+proguard.cfg
+thedroid.iws
