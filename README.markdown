@@ -113,7 +113,7 @@ A `DbAdapter` is essentially used to minimise the amount of details that need to
 
 ### dsq.thedroid.db.DbHelper (DefaultDbHelper)
 
-The `DefaultDbHelper` implementation of the `DbHelper` interface provides the general upgrade and creation processes used the Android system.
+The `DefaultDbHelper` implementation of the `DbHelper` interface provides the general upgrade and creation processes used by the Android system.
 
     void onCreate(SQLiteDatabase sqLiteDatabase, Table[] tables);
     void onUpgrade(SQLiteDatabase sqLiteDatabase, Table[] tables, int oldVersion, int newVersion);
